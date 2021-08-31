@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
-    "strictPropertyInitialization": false, // resolver problema das models sem contrutor, pois n solicita inicializacao dos atributos
+    "strictPropertyInitialization": false, // n solicita inicializacao dos atributos
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,

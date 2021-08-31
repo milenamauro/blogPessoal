@@ -1,8 +1,10 @@
-import { Postagem } from "./Postagem"
+import { Postagem } from "./Postagem";
+import { User } from "./User";
 
-export class  Tema{
+
+export class Tema{
+
     public id: number
-    public descricao: string
+    public descriçao: string
     public postagem: Postagem[]
-    
 }
