@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "strictPropertyInitialization": false, // n solicita inicializacao dos atributos
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
