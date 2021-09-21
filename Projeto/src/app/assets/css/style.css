@@ -1,0 +1,64 @@
+/*
+Estilos da página indexPlataforma.html
+*/
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;             /*row=linha wrap=quebra de linha*/
+    justify-content: center;    /*Horizontal*/
+    align-items: center;        /*vertical*/
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-300{
+    width: 400px;
+    height: 400px;
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+/*
+Estilos da página Contato.html
+*/
+
+.ml-50{
+    margin-left: 50px;
+}
